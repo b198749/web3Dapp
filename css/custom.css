@@ -1,0 +1,465 @@
+/* IMPORTED FONTS */
+
+@font-face{
+    font-family: cocaColaFont;
+    src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
+}
+
+@font-face{
+    font-family: OpenSans;
+    src: url(../assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: Oswald;
+    src: url(../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: fallout;
+    src: url(../assets/fonts/sole_survivor/SoleSurvivor.ttf);
+}
+
+/* Extra Small devices (less than 576px and up)
+    No media query since this is the default in Bootstrap
+*/
+
+body {
+    background-color:#303030;
+}
+
+.main_contents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'OpenSand',sans-serif;
+    color: white;
+}     
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    
+}
+
+#main_3d_image {
+    background-image: url(../assets/images/main_3D.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+#main_text {
+    float: left;
+    margin: 5%;
+    width: 90%;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#main_text h2 {
+    color: rgb(177, 17, 11);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#main_text h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #030303;
+}
+
+#main_text p {
+    font-size: 12px;
+    margin: 0px;
+    line-height: 1.2;
+    color: #030303;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    /*border-radius: .25rem;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    min-height: 200px;
+}
+
+/* LOGO */
+
+.logo {
+    margin-top: 3px;
+}
+
+.navbar_coca_cola .navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+    
+.logo h1 {
+    font-family: cocaColaFont; 
+    font-size: 31px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+.logo h2 {
+    font-family: cocaColaFont;
+    font-size: 31px;
+    margin-top: -6px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+}
+
+.logo h3 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+}
+
+.logo p {
+    font-size: 7px; /* You may have to tweak this to get a good fit */
+    margin-top: 22px; /* You may have to tweak this to get a good fit */
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+}
+
+/* NAVBAR */
+
+.navbar {
+    /*background-color: rgb(126, 13, 13);*/
+    background-image: linear-gradient(to bottom right, red, rgb(104, 1, 1));
+    min-height: 70px;
+    
+}
+.navbar_coca_cola .navbar-brand {
+    color: white;
+}
+
+.navbar_coca_cola .navbar-brand:hover {
+    color: black;
+}
+
+.navbar_coca_cola .navbar-toggler {
+    padding: 0.25rem 1rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    border-color: white;
+    border: 2px solid ;
+}
+
+.navbar_coca_cola .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* navigation menu...*/
+
+.navbar_coca_cola .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar_coca_cola .navbar-nav > li > a:hover, .navbar_coca_cola .navbar-nav > li > a:focus {
+    color: greenyellow;
+}
+
+.navbar_coca_cola .navbar-nav .nav-item {
+    margin-top: 0px;
+}
+
+.navbar_coca_cola .navbar-nav .nav-item > .active,
+.navbar_coca_cola .navbar-nav .nav-item > a:hover,
+.navbar_coca_cola .navbar-nav .nav-item > a:focus {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+} 
+
+.navbar_coca_cola .navbar-nav .nav-item > li > a:hover,
+.navbar_coca_cola .navbar-nav .nav-item > a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+    text-align: -webkit-left;
+    background-color: #b6e7f3;
+    margin-top: 20px; /* Experiment to move the dropdown menu down */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #eb0025;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #030303;
+    background-color: #e98074;
+}
+
+.navbar_coca_cola .navbar-toggler {
+    outline: none !important;
+}
+
+/* Footer */
+
+.footer {
+    color: #030303;
+    background-color: rgb(0, 0, 0); /* Set navbar footer background color same as header */
+    height: 50px;
+}
+
+.navbar-text > a {
+    font-size: 10px;
+}
+
+.navbar-text > p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.copyright {
+    padding-top: 8px;
+    
+}
+
+.social {
+    padding-top: 0px;
+}
+
+/*****************************************************************************************************/
+/*****************************************************************************************************/
+/*****************************************************************************************************/
+/*********************************** SCREEN SIZE CHANGE STYLING **************************************/
+/*****************************************************************************************************/
+/*****************************************************************************************************/
+/*****************************************************************************************************/
+
+/* Small devices (landscape phones, 576px and up)
+*/
+@media (min-width: 576px) {
+
+    .navbar-nav {
+        font-size: 20px;
+    }
+    
+    /* logo + background image main text box */
+
+    #main_3d_image {
+        background-image: url(../assets/images/models3.jpg);
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    #main_text {
+        float: right;
+        margin-top: 20%;
+        width: 70%;
+    }
+
+    #main_text h2 {
+        font-size: 30px;
+    }
+    
+    #main_text h3 {
+        font-size: 22px;
+    }
+    
+    #main_text p {
+        font-size: 15px;
+    }
+   
+
+}
+
+/*****************************************************************************************************/
+
+/* Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px) {
+
+    .navbar-nav {
+        font-size: 20px;
+    }
+
+    /* logo + background image main text box */
+    #main_3d_image {
+        background-image: url(../assets/images/models4.jpg);
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    #main_text {
+        float: right;
+        margin-top: 20%;
+        width: 50%;
+    }
+
+    #main_text h2 {
+        font-size: 30px;
+    }
+    
+    #main_text h3 {
+        font-size: 22px;
+    }
+    
+    #main_text p {
+        font-size: 15px;
+    }
+    
+}
+
+/*****************************************************************************************************/
+
+/* Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px) {
+
+    .navbar-nav {
+        font-size: 25px;
+    }
+
+    /* logo + background image main text box */
+    #main_3d_image {
+        background-image: url(../assets/images/models5.jpg);
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    #main_text {
+        float: right;
+        margin-top: 20%;
+        width: 30%;
+    }
+
+    #main_text h2 {
+        font-size: 30px;
+    }
+    
+    #main_text h3 {
+        font-size: 22px;
+    }
+    
+    #main_text p {
+        font-size: 15px;
+    }
+    
+    
+
+}
+
+/*****************************************************************************************************/
+
+/* Extra large devices (large desktops, 1200px and up)
+*/
+@media (min-width: 1200px) {
+
+    .navbar-nav {
+        font-size: 30px;
+    }
+
+
+    /*image and text box on image*/
+    #main_3d_image {
+        background-image: url(../assets/images/models6.jpg);
+        background-repeat: no-repeat;
+        height: 100%
+    }
+
+    #main_text {
+        float: right;
+        margin-top: 20%;
+        width: 20%;
+    }
+    
+    #main_text h2 {
+        font-size: 30px;
+    }
+    
+    #main_text h3 {
+        font-size: 22px;
+    }
+    
+    #main_text p {
+        font-size: 15px;
+    }
+
+    .navbar_coca_cola {
+        min-height: 120px;
+    }
+
+    .logo {
+        margin-top: 7px;
+        font-size: 59px;
+        margin: 0px;
+        margin-top: 0px;
+        margin-bottom: -20px;
+        float: left;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+        
+    .logo h1 {
+        font-size: 59px;
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: -20px;
+        float: left;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .logo h2 {
+        font-size: 65px;
+        margin-top: 7px;
+        margin-bottom: -25px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 6px;
+        float: left;
+    }
+    
+    .logo h3 {
+        font-size: 40px;
+        margin-top: 15px;
+        margin-bottom: -5px;
+        padding-top: 0px;
+        padding-left: 20px;
+        float: left;
+    }
+    
+    .logo p {
+        font-size: 14px; /* You may have to tweak this to get a good fit */
+        margin-top: 0px; /* You may have to tweak this to get a good fit */
+        margin-bottom: 0px;
+        padding-top: 65px;
+        padding-left: 0px;
+    }
+
+
+}
